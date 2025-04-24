@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building Robots - Jaskaran Singh</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  <div class="scanline"></div>
+  <div class="container">
+    <div class="blog-post-container fade-in">
+      <h1 class="blog-post-title">Building Robots</h1>
+      <p class="blog-post-date">April 25, 2025   (5 min read) </p>
+     
+      <div class="blog-post-content">
+       
+
+        <p>I was 15 when I fell into the world of battle robots — tense, overwhelmed, and hooked the moment I stepped in. My school seniors had just established Invincible Robotics, and I couldn't help gaping at their machines tearing plywood as if it were paper. It's six years later now, and I'm 21 years old, an awe-struck spectator turned two-time World Cup champion with the very same organization.</p>
+
+        <p>Invincible Robotics began with nothing but passion and bits salvaged from every available corner. We battled our way up through the 15kg and 30kg weight divisions, learning along the way. More recently, we've introduced the high-speed 8kg arena to our roster — a whole different challenge, all about agility, acceleration, and reaction time. Each division presented its own set of issues and solutions, and I found myself falling in love with solving them.</p>
+
+        <p>The largest and most hurtful lesson early on? Being cool counts for nothing if you can't withstand a hit. We engineered weapons we believed would win us championships, and then saw them crumble upon initial contact. I spent months learning about stress points, impact transfer, and why armor is not merely a shield — it's tactics. Every component had to justify its weight. Someday, we did. And when we did, it stayed.</p>
+
+        <p>Our moment of change was when we accepted the less sexy side of robotics: reinforcement, repairability, and real-time decision-making. In between games, we rebuilt systems from scratch in minutes. I spent time on modular wiring harnesses, quick-exchange armor plates, and redundant failsafes — because in battle, anything that can break, will break. Creating something beautiful was wonderful. Creating something that could live? That was better still.</p>
+
+        <p>We also went deep into the electronics aspect. I spent hours on end designing LiPo battery packs that would withstand 100A+ spikes without overheating, constructing monitoring systems using ESP32s, and calibrating ESCs for precise control in extreme conditions. We coaxed every last bit of performance out of our bots — not only for speed or power, but for efficiency, diagnostics, and survivability. Winning wasn't about raw power; it was about systems playing together in harmony.</p>
+
+        <p>And then the moment of a lifetime — two World Cup victories, in a row. Those days are seared into my brain: the stand, the last punches, the absolute shock when our bot stood proud and the other was in pieces. All the all-nighters, the mangled bits, the infinitesimal improvements no one else cared about — it all paid off. Twice. It's difficult to put into words how it feels, but surreal is an approximation.</p>
+
+        <p>Working with Invincible Robotics? It’s all about the team. We’ve all had our design obsessions and pet ideas, but when it’s go-time, everything clicks into place. One person drives like their life depends on it, another calls strategy, someone else has a soldering iron ready before the bot even stops smoking. No egos, just trust. It’s pure adrenaline-pumping synergy.</p>
+
+        <p>Of course, there's still IIT Bombay — the one title we haven't taken. We've come close — heartbreakingly close — but it slips away from us like sand. It's the one tournament that still haunts our dreams and pushes us in equal measure. The final boss. And we're not finished yet.</p>
+
+        <p>In retrospect, this journey has been about a whole lot more than trophies or wins. It's been about the lessons that only come from failure, the late-night discussions of torque vs traction, the scorched fingers from soldering in haste, and the moments of quiet mutual pride when something simply works. It's about a community of people who sacrificed everything for a dream of steel, sparks, and drive.</p>
+
+        <p>Invincible Robotics didn't only show me how to construct combat robots. It showed me how to think, how to be flexible, and how to construct something worth believing in — as a team.</p>
+
+      </div>
+      
+      <a href="index.html" class="back-link">Back to Portfolio</a>
+    </div>
+  </div>
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.fade-in');
+      elements.forEach((element, index) => {
+        setTimeout(() => {
+          element.style.opacity = 1;
+          element.style.transform = 'translateY(0)';
+          element.style.transition = 'opacity 0.6s ease-in-out, transform 0.6s ease-out';
+        }, index * 100); 
+      });
+    });
+  </script>
+</body>
+</html>
