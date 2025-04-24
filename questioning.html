@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questioning myself - Jaskaran Singh</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  <div class="scanline"></div>
+  <div class="container">
+    <div class="blog-post-container fade-in">
+      <h1 class="blog-post-title">Questioning myself</h1>
+      <p class="blog-post-date">April 27, 2025   (5 min read) </p>
+     
+      <div class="blog-post-content">
+       
+
+        <p>Man, I got way too into this project. It started so simple in my head: upload a doc, ask a question, get a smart answer that actually made sense. No AI jargon, no BS. Just understanding. That was the vibe I was going for.</p>
+        <p>What I ended up building was <a href="https://github.com/zuxarido/questioning"> "Questioning" </a> – my first real dive into this thing called Retrieval-Augmented Generation (RAG). Basically, an AI that (in my head) really listened to what you gave it. But what I <em>really</em> ended up building was… well, a whole lot of learning about myself and what I didn't know.</p>
+        <p>The first lines of code? Disaster. One giant, messy Python file. Backend, embeddings, the whole shebang, just thrown in there. It <em>worked</em>, kind of. Until it really, really didn't.</p>
+        <p>Every time I tried to tweak something, it felt like the whole thing was about to collapse. That's when it hit me: writing a bit of code is miles away from actually building something. So, yeah, I nuked it and started over. Small, separate pieces. Trying to make some kind of sense of it all.</p>
+        <p>That second try? That felt like actually figuring something out for the first time.</p>
+        <p>Then came the rabbit holes. Annoying dependency errors. Weird LLM hallucinations. Token limits making my app just choke? Seriously frustrating. The first time it cut off mid-sentence, I was convinced I'd broken the universe. Nope, just hit some dumb limit.</p>
+        <p>And that's when I started to see how these AI things <em>act up</em>,sometimes they just… make things up. Answers were too short, then too vague, then just plain wrong. Hours spent tweaking, prompting, swapping models. </p>
+        <p>"Why the hell isn't this doing what I expect?"</p>
+        <p>"What's the least janky way to pull the right info?"</p>
+        <p>"Am I even on the right track here, or just doing the easiest thing I can think of?"</p>
+        <p>Plenty of nights I wanted to just walk away. Felt like I was in way over my head. But every time I fixed something, every time I screwed up and figured out why, it was like this little lightbulb going off about how these systems <em>actually</em> "think." And then, one day, it just… clicked. The answers started making sense. The thing felt… usable.</p>
+        <p>That moment – when I asked a question and it gave me an answer that was spot-on, pulled right from the document I uploaded – that was wild. Felt like I'd built something that could actually <em>understand</em>. And suddenly, all the chaos before? Totally worth it.</p>
+        <p>But here's the kick in the pants. While I was obsessing over this little project, wrestling with the nitty-gritty of RAG, the big dogs – ChatGPT, Google – were doing the exact same thing, but on a scale that makes my little "Questioning" look like a toy.</p>
+        <p>Think about it. My whole idea – upload your stuff, get smart answers based on it – that's just… a feature now. Custom GPTs, Google's Vertex AI… they've got this RAG thing baked right in, all fancy and polished.</p>
+        <p>And it makes you wonder, right? All that time, all that effort… was it just a waste? Like, the thing I was so proud of building is just table stakes now.</p>
+        <p>But deep down, I know it wasn't pointless. Yeah, "Questioning" probably isn't going to change the world. But <em>building</em> it? That changed <em>me</em>.</p>
+        <p>So, yeah, "Questioning" might not be some groundbreaking app . But it was my personal deep dive into how this stuff actually works. It was me trying to figure something out, and in the process, figuring out a bit more about myself. And honestly? That doesn't feel pointless at all.</p>
+        <p>It feels like the entire point.</p> 
+
+      </div>
+      
+      <a href="index.html" class="back-link">Back to Portfolio</a>
+    </div>
+  </div>
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.fade-in');
+      elements.forEach((element, index) => {
+        setTimeout(() => {
+          element.style.opacity = 1;
+          element.style.transform = 'translateY(0)';
+          element.style.transition = 'opacity 0.6s ease-in-out, transform 0.6s ease-out';
+        }, index * 100); 
+      });
+    });
+  </script>
+</body>
+</html>
